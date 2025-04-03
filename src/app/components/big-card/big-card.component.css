@@ -20,11 +20,12 @@
   margin-bottom: 10px;
 }
 .big-card__title > h1 > a {
-  font-size: 23px;
+  font-size: 35px;
 }
 .big-card__description {
   margin-top: 5px;
 }
 .big-card__description > p > a {
   color: grey;
+  font-size: 20px;
 }

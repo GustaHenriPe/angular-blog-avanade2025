@@ -1,23 +1,17 @@
 <div class="container__big-card">
   <div class="big-card__picture">
-    <img
-      src="https://itc.ua/wp-content/uploads/2025/03/silkson-1742808898910.jpg"
-      alt="placholder"
-    />
+    <img src="{{ photoCover }}" alt="placholder" />
   </div>
   <div class="big-card__title">
     <h1>
-      <a href="#">Saiu a nova versão do Angular</a>
+      <a href="#">{{ cardTitle }}</a>
     </h1>
   </div>
   <div class="big-card__description">
     <p>
       <a href="">
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui labore
-      explicabo eligendi optio, obcaecati repudiandae illo quos facere velit
-      architecto modi molestias numquam sed aspernatur nesciunt similique!
-      Numquam, dolore in. Lorem ipsum.
-    </a>
+        {{ cardDescription }}
+      </a>
     </p>
   </div>
 </div>

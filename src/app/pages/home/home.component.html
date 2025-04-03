@@ -1,4 +1,3 @@
-
 <header>
   <app-menu-bar></app-menu-bar>
 </header>
@@ -6,12 +5,34 @@
 <app-menu-title></app-menu-title>
 <div class="container__articles">
   <div class="container__articles__main">
-    <app-big-card></app-big-card>
+    <app-big-card
+      [photoCover]="
+        'https://www.baguete.com.br//cache/image/noticias/2024/12/1733841771_unnamed(19)(1).jpg?w=730'
+      "
+      [cardTitle]="'Avanade tem novo presidente no Brasil'"
+      [cardDescription]="
+        'A Avanade, consultoria global da Microsoft, anunciou Adriano Picchi Neves como o novo presidente da empresa no Brasil. O executivo substitui Fabio Hasegawa, que estava no cargo desde 2020 e assumirá a posição de Global Practices Lead.'
+      "
+    ></app-big-card>
   </div>
   <div class="articles__others">
-      <app-small-card></app-small-card>
-      <app-small-card></app-small-card>
-      <app-small-card></app-small-card>
-
+    <app-small-card
+      [cardTitle]="'Rodrigo Caserta é novo CEO da Avanade'"
+      [photoCover]="
+        'https://itforum.com.br/wp-content/uploads/2024/08/rodrigo-caserta-avanade.jpg.webp'
+      "
+    ></app-small-card>
+    <app-small-card
+      [cardTitle]="'Accenture, Microsoft e Avanade focam na transformação com IA Generativa e Copilot'"
+      [photoCover]="
+        'https://midias.inforchannel.com.br/wp-content/uploads/2024/04/Robos-Computador-Foto-Freepik-768x430.jpg.webp'
+      "
+    ></app-small-card>
+    <app-small-card
+      [cardTitle]="'Ferramenta de inteligência artificial AzulGPT é utilizada pela Azul em colaboração com Microsoft e Avanade.'"
+      [photoCover]="
+        'https://aeroin.net/wp-content/uploads/2022/04/Azul-A330-900-A330neo-Hangar-22042601-1024x671.jpg'
+      "
+    ></app-small-card>
   </div>
 </div>
